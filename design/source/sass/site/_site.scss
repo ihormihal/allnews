@@ -173,6 +173,31 @@ article.last {
 	}
 }
 
+article {
+	h4 {
+		margin-bottom: $gap;
+	}
+}
+
+blockquote {
+	overflow: hidden;
+	margin-bottom: $gap;
+	img {
+		float: left;
+		margin-right: $gap;
+	}
+	.q {
+		font-size: 48px;
+		color: color(light-grey);
+	}
+	p {
+		color: color(light-grey);
+		font-size: $fs3;
+		line-height: 1.1;
+		font-style: italic;
+	}
+}
+
 .tags {
 	margin-bottom: $gap;
 	a {
