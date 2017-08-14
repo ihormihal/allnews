@@ -225,9 +225,56 @@ $btnBoxShadow_active: 0 5px 10px rgba(0,0,0,0.3);
 	}
 	a {
 		display: inline-block;
-		color: #fff !important;
+		color: color(light-grey);
 		text-align: center;
 		padding: 0 5px;
+		transition: color .3s ease;
+	}
+
+	.facebook {
+		&:hover {
+			color: lighten($colorFacebook,5%);
+		}
+	}
+	.instagram {
+		&:hover {
+			color: lighten($colorInstagram,5%);
+		}
+	}
+	.vkontakte {
+		&:hover {
+			color: lighten($colorVkontakte,5%);
+		}
+	}
+	.linkedin {
+		&:hover {
+			color: lighten($colorLinkedIn,5%);
+		}
+	}
+	.twitter {
+		&:hover {
+			color: lighten($colorTwitter,5%);
+		}
+	}
+	.foursquare {
+		&:hover {
+			color: lighten($colorFoursquare,5%);
+		}
+	}
+	.pinterest {
+		&:hover {
+			color: lighten($colorPinterest,5%);
+		}
+	}
+	.youtube {
+		&:hover {
+			color: lighten($colorYoutube,5%);
+		}
+	}
+	.google {
+		&:hover {
+			color: lighten($colorGoogle,5%);
+		}
 	}
 }
 .share-buttons {
@@ -241,57 +288,59 @@ $btnBoxShadow_active: 0 5px 10px rgba(0,0,0,0.3);
 		display: inline-block;
 		color: #fff !important;
 		text-align: center;
+		background-color: color(light-grey);
+		transition: background-color .3s ease;
 	}
 	.facebook {
-		background-color: $colorFacebook;
+		//background-color: $colorFacebook;
 		&:hover {
 			background-color: lighten($colorFacebook,5%);
 		}
 	}
 	.instagram {
-		background-color: $colorInstagram;
+		//background-color: $colorInstagram;
 		&:hover {
 			background-color: lighten($colorInstagram,5%);
 		}
 	}
 	.vkontakte {
-		background-color: $colorVkontakte;
+		//background-color: $colorVkontakte;
 		&:hover {
 			background-color: lighten($colorVkontakte,5%);
 		}
 	}
 	.linkedin {
-		background-color: $colorLinkedIn;
+		//background-color: $colorLinkedIn;
 		&:hover {
 			background-color: lighten($colorLinkedIn,5%);
 		}
 	}
 	.twitter {
-		background-color: $colorTwitter;
+		//background-color: $colorTwitter;
 		&:hover {
 			background-color: lighten($colorTwitter,5%);
 		}
 	}
 	.foursquare {
-		background-color: $colorFoursquare;
+		//background-color: $colorFoursquare;
 		&:hover {
 			background-color: lighten($colorFoursquare,5%);
 		}
 	}
 	.pinterest {
-		background-color: $colorPinterest;
+		//background-color: $colorPinterest;
 		&:hover {
 			background-color: lighten($colorPinterest,5%);
 		}
 	}
 	.youtube {
-		background-color: $colorYoutube;
+		//background-color: $colorYoutube;
 		&:hover {
 			background-color: lighten($colorYoutube,5%);
 		}
 	}
 	.google {
-		background-color: $colorGoogle;
+		//background-color: $colorGoogle;
 		&:hover {
 			background-color: lighten($colorGoogle,5%);
 		}

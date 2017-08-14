@@ -53,6 +53,12 @@
 	}
 }
 
+.topbar {
+	.social-buttons a {
+		color: #fff;
+	}
+}
+
 .share, .author {
 	padding: $gap/2 0;
 	border-top: 1px dotted $colorPrimaryLight;
@@ -92,7 +98,7 @@
 		padding-top: 16px;
 		.social-buttons a {
 			font-size: 20px;
-			color: color(light-grey) !important;
+			//color: color(light-grey) !important;
 		}
 	}
 	&:after {
@@ -162,6 +168,41 @@ article.last {
 	&:last-child {
 		&:after { display: none; }
 	}
+	.col-md-8 p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.tags {
+	margin-bottom: $gap;
+	a {
+		display: inline-block;
+		padding: 2px 4px;
+		text-transform: uppercase;
+		background-color: color(lighten);
+		color: color(black);
+		font-size: $fs7;
+	}
+}
+.tag {
+	position: relative;
+	min-width: 200px;
+	text-align: left;
+	background-color: #fff;
+	color: $colorPrimaryLight;
+	font-size: 14px;
+	line-height: 16px;
+	padding-left: 8px;
+	&:before {
+		display: block;
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 16px;
+		width: 3px;
+		background-color: $colorPrimaryLight;
+	}
 }
 
 .image {
@@ -170,22 +211,7 @@ article.last {
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		min-width: 200px;
-		text-align: left;
-		background-color: #fff;
-		padding: 8px 8px 0 8px;
-		color: $colorPrimary;
-		font-size: 14px;
-		&:before {
-			display: block;
-			content: '';
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			height: 22px;
-			width: 2px;
-			background-color: $colorPrimary;
-		}
+		padding: 12px 8px 0 8px;
 	}
 }
 
@@ -202,10 +228,19 @@ article.last {
 	clear: both;
 }
 
+.divider-orange {
+	height: 2px;
+	background-color: color(orange);
+	clear: both;
+}
+
 .text-subline {
 	display: block;
 	width: 25px;
 	height: 3px;
 	margin-top: 6px;
 	background-color: $colorPrimaryLight;
+	&.orange {
+		background-color: color(orange);
+	}
 }

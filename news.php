@@ -32,6 +32,11 @@
 											<div class="mark mb1">
 												<span><i class="fa fa-clock-o"></i> <time>14 may 2017 07:00 PM</time></span>
 											</div>
+											<div class="tags">
+												<a href="#">tagline1</a>
+												<a href="#">tagline2</a>
+												<a href="#">tagline3</a>
+											</div>
 											<p>L’adaptation de ce paramètre au niveau moyen actuel risque de déclencher de nouvelles opérations.</p>
 										</div>
 									</div>
@@ -39,7 +44,7 @@
 								<?php endfor; ?>
 							</div>
 
-							<ul class="pagination">
+							<ul class="pagination mb2">
 								<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
 								<li><a href="#">1</a></li>
 								<li class="active"><a href="#">2</a></li>

@@ -18,6 +18,11 @@
 						<div class="col-md-8">
 
 							<article>
+								
+								<div class="pb1">
+									<div class="tag up">technology</div>
+								</div>
+								
 
 								<h1>Place financière: le secrétaire d'Etat Jörg Gasser en visite à Washington</h1>
 								<div class="mark mb1">
@@ -25,7 +30,7 @@
 									<span class="ml1"><i class="fa fa-user"></i> by Allnews</span>
 								</div>
 
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua.</p>
+								<p><b><i class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua.</i></b></p>
 
 								<div class="image"><img src="http://placehold.it/1600x900" alt="" class="full"></div>
 
@@ -51,10 +56,10 @@
 
 								<div class="share mt1 mb1">
 									<div class="row">
-										<div class="col-md-6">
+										<div class="col-sm-6">
 											<a href="#" class="print"><i class="fa fa-print"></i> <span class="up h5 black">Print</span></a>
 										</div>
-										<div class="col-md-6">
+										<div class="col-sm-6">
 											<ul class="share-buttons right">
 												<li><div class="up h5 black mr">share</div></li>
 												<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -110,8 +115,8 @@
 							<div class="mt2"></div>
 
 							<div class="box bright-bg popular">
-								<h5 class="">More Popular</h5>
-								<div class="text-subline mb1"></div>
+								<h5 class="pt2">More Popular</h5>
+								<div class="text-subline orange mb1"></div>
 
 								<h6 class="orange">Money</h6>
 								<p>Swiss politician Gössi do eiusmod magna aliqua</p>
@@ -126,7 +131,7 @@
 								<h6 class="orange">People</h6>
 								<p>Swiss politician Gössi do eiusmod magna aliqua</p>
 							</div>
-							<div class="divider-primary"></div>
+							<div class="divider-orange"></div>
 
 							<div class="mt2"></div>
 
