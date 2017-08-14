@@ -1,0 +1,40 @@
+html {
+	font-size: 16px; //rem size
+}
+
+body {
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #fff;
+	display: flex;
+	main {
+		flex: 1 0 auto;
+	}
+}
+a {
+	color: color(orange);
+	text-decoration: none;
+}
+p {
+	color: color(black);
+}
+ul {
+	text-align: left;
+}
+
+//equal height for widgets in row (additional class for col-**-**)
+.wc {
+	display: flex;
+	flex-direction: column;
+	.col-content {
+		flex-grow: 1;
+		position: relative;
+	}
+}
+
+// @media screen and (min-width: $xl){
+// 	html { font-size: 20px; }
+// }
+// @media screen and (min-width: $xxl){
+// 	html { font-size: 16px; }
+// }
