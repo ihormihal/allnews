@@ -124,6 +124,8 @@
 // 		padding: 0 5px;
 // 	}
 // }
+
+//header
 header .navbar {
 	border-bottom: 1px solid $colorPrimary;
 }
@@ -142,6 +144,13 @@ header .navbar {
 	}
 }
 
+
+//content
+.plate {
+	@extend .box, .shadow-1;
+	margin-bottom: $gap/2;
+	background-color: #fff;
+}
 .article-big {
 	margin-bottom: $gap;
 	&.last {
@@ -151,10 +160,11 @@ header .navbar {
 .article-small {
 	margin-bottom: $gap;
 	border-bottom: 1px dotted color(light);
-	min-height: 80px;
+	//min-height: 80px;
 }
 
 article.last {
+	margin-bottom: 0;
 	border-bottom: 2px solid lighten($colorPrimary, 60%);
 }
 
@@ -181,7 +191,9 @@ article {
 
 blockquote {
 	overflow: hidden;
-	margin-bottom: $gap;
+	margin: $gap*2 0;
+	padding-right: $gap;
+	border-right: 3px solid lighten($colorPrimary, 60%);
 	img {
 		float: left;
 		margin-right: $gap;

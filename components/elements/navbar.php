@@ -1,4 +1,4 @@
-<div class="navbar navbar-lg-lg white-bg">
+<div class="navbar navbar-lg-lg primary-bg">
 	<div class="container">
 		<div class="row">
 

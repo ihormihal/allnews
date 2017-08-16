@@ -1,4 +1,4 @@
-<section class="topbar dark-bg pt pb hide-sm-under">
+<section class="topbar dark-bg pt pb hide-sm-under border-bottom border-white">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9">

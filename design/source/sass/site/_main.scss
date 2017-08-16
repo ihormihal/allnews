@@ -9,6 +9,9 @@ body {
 	display: flex;
 	main {
 		flex: 1 0 auto;
+		&.home {
+			background-color: #f8f5f3;
+		}
 	}
 }
 a {

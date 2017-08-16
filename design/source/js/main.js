@@ -47,4 +47,7 @@ $(function() {
 	//Select autocomplete
 	if($().imfSelect) $('select.imf-select').imfSelect();
 
+
+	//Custom
+
 });

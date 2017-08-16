@@ -4,7 +4,7 @@
 	<?php include 'components/head.php'; ?>
 	</head>
 	<body>
-		<div class="image"><img class="full" src="content/banner.png" alt=""></div>
+		<div class="image adv"><img class="full" src="content/banner.png" alt=""></div>
 		<header>
 			<?php include 'components/elements/topbar.php'; ?>
 			<?php include 'components/elements/navbar.php'; ?>
@@ -57,7 +57,7 @@
 								<div class="share mt1 mb1">
 									<div class="row">
 										<div class="col-sm-6">
-											<a href="#" class="print"><i class="fa fa-print"></i> <span class="up h5 black">Print</span></a>
+											<a href="javascript:window.print()" class="print"><i class="fa fa-print"></i> <span class="up h5 black">Print</span></a>
 										</div>
 										<div class="col-sm-6">
 											<ul class="share-buttons right">
