@@ -158,6 +158,9 @@ header .navbar {
 	&.last {
 		padding-bottom: $gap;
 	}
+	.h3 {
+		min-height: 3.7em;
+	}
 }
 .article-small {
 	margin-bottom: $gap;
