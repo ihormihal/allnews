@@ -96,6 +96,11 @@ $navBtnSize: 20*$pt;
 		}
 	}
 
+	.tagline {
+		color: $colorPrimaryLight;
+		line-height: 70px;
+	}
+
 	.counter {
 		display: block;
 		background-color: color(blue);
@@ -116,7 +121,22 @@ $navBtnSize: 20*$pt;
 			> a:not(.btn) {
 				line-height: $navbarHeight;
 				padding: 0 $gap;
-				font-weight: 500;
+				font-weight: 600;
+				&.first {
+					color: #f1a541;
+					position: relative;
+					&:after {
+						content: '';
+						position: absolute;
+						right: 0;
+						top: 50%;
+						margin-top: -10px;
+						display: block;
+						height: 20px;
+						width: 1px;
+						border-right: 1px solid $colorPrimaryLight;
+					}
+				}
 			}
 			.btn {
 				display: inline-block;
@@ -281,6 +301,9 @@ header .nav-inline > li > a:not(.btn) {
 		}
 		& + .navbar-fixed-space {
 			height: $navbarHeight !important;
+		}
+		.tagline {
+			display: none;
 		}
 	}
 }

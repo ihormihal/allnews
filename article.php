@@ -20,7 +20,7 @@
 							<article>
 								
 								<div class="pb1">
-									<div class="tag up">technology</div>
+									<a href="#" class="tag up">technology</a>
 								</div>
 								
 

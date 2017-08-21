@@ -4,7 +4,7 @@
 	<?php include 'components/head.php'; ?>
 	</head>
 	<body>
-		<div class="image"><img class="full" src="content/banner.png" alt=""></div>
+		<a href="#" class="image"><img class="full" src="content/banner.png" alt=""></a>
 		<header>
 			<?php include 'components/elements/topbar.php'; ?>
 			<?php include 'components/elements/navbar.php'; ?>
@@ -16,7 +16,7 @@
 					<div class="row">
 
 						<div class="col-md-8">
-							<h5 class="primary-red">News</h5>
+							<a href="#" class="h4 primary-red">News</a>
 							<div class="text-subline mb1"></div>
 							
 							<div class="articles mb2">
@@ -24,11 +24,11 @@
 								<article class="article-md">
 									<div class="row">
 										<div class="col-md-4">
-											<div class="image"><img class="full" src="http://placehold.it/260x180" alt=""></div>
+											<a href="#" class="image"><img class="full" src="http://placehold.it/260x180" alt=""></a>
 											<div class="mb1 show-md-under"></div>
 										</div>
 										<div class="col-md-8">
-											<div class="h4">Le taux technique est une bombe à retardement pour les caisses publiques</div>
+											<a href="#" class="h4">Le taux technique est une bombe à retardement pour les caisses publiques</a>
 											<div class="mark mb1">
 												<span><i class="fa fa-clock-o"></i> <time>14 may 2017 07:00 PM</time></span>
 											</div>
@@ -67,8 +67,8 @@
 
 							<article class="article-big last">
 								<div class="image">
-									<img src="http://placehold.it/400x240" alt="">
-									<div class="tag up">Nonre selection</div>
+									<a href="#"><img src="http://placehold.it/400x240" alt=""></a>
+									<a href="#" class="tag up">Nonre selection</a>
 								</div>
 								<div class="h4 mt1 primary">Marty Flanagan, CEO D`INVESCO</div>
 								<div class="h3 mt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
@@ -86,10 +86,10 @@
 								<div class="row thin">
 									<div class="col-xs-9">
 										<div class="h5 bold primary-light mt1">Michel Girardin</div>
-										<div class="h4 mt">Brexit: les Européens ont la main</div>
+										<a href="#" class="h4 mt">Brexit: les Européens ont la main</a>
 									</div>
 									<div class="col-xs-3">
-										<div class="image"><img src="http://placehold.it/80x80" alt=""></div>
+										<a href="#" class="image"><img src="http://placehold.it/80x80" alt=""></a>
 									</div>
 								</div>
 							</article>
@@ -99,19 +99,26 @@
 							<div class="box bright-bg popular">
 								<h5 class="">More Popular</h5>
 								<div class="text-subline mb1"></div>
-
-								<h6 class="orange">Money</h6>
-								<p>Swiss politician Gössi do eiusmod magna aliqua</p>
-
-								<div class="divider mt1 mb1"></div>
-
-								<h6 class="orange">Economics</h6>
-								<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
+								
+								<a href="#">
+									<h6 class="orange">Money</h6>
+									<p>Swiss politician Gössi do eiusmod magna aliqua</p>
+								</a>
+								
 
 								<div class="divider mt1 mb1"></div>
+								
+								<a href="#">
+									<h6 class="orange">Economics</h6>
+									<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
+								</a>
 
-								<h6 class="orange">People</h6>
-								<p>Swiss politician Gössi do eiusmod magna aliqua</p>
+								<div class="divider mt1 mb1"></div>
+								
+								<a href="#">
+									<h6 class="orange">People</h6>
+									<p>Swiss politician Gössi do eiusmod magna aliqua</p>
+								</a>
 							</div>
 							<div class="divider-primary"></div>
 
