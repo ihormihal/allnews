@@ -73,3 +73,8 @@
 		visibility: visible;
 	}
 }
+
+//fix for inner
+.dropdown.active .dropdown .popup {
+	display: none;
+}

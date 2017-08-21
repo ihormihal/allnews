@@ -196,6 +196,25 @@ $navBtnSize: 20*$pt;
 			clear: both;
 		}
 	}
+	.dropdown {
+		.popup {
+			background-color: $colorPrimary;
+			li {
+				display: block;
+				float: none;
+			}
+			a {
+				display: block;
+				color: #fff;
+				padding: $gap*0.75 $gap*2;
+				line-height: 1;
+				transition: background-color 0.3s ease;
+				&:hover {
+					background-color: rgba(255,255,255,0.2);
+				}
+			}
+		}
+	}
 	.logo {
 		//padding: $gap/2 0;
 		padding: 0;

@@ -11,7 +11,7 @@ $(document).on('click', function(event){
 	});
 });
 $(document).on('click', '.dropdown .toggle', function(){
-	var dropdown = $(this).parents('.dropdown');
+	var dropdown = $(this).closest('.dropdown');
 	if(!dropdown.hasClass('onhover')){
 		dropdown.toggleClass('active');
 	}
