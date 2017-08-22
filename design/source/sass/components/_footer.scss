@@ -15,7 +15,20 @@ footer {
 			height: auto;
 		}
 	}
-	
+	.footer-links {
+		padding-top: 4px;
+		a {
+			color: $colorPrimaryRed;
+			padding: 0 $gap;
+			font-weight: 600;
+		}
+	}
+	.footer-contacts {
+		padding-top: 2px;
+		> span {
+			padding: 0 8px;
+		}
+	}
 }
 
 @media screen and (max-width: $md - 1px) {

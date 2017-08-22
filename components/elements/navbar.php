@@ -10,7 +10,7 @@
 				<div class="valign">
 					<div class="logo full pt pb text-sm-center">
 						<img src="content/logo.jpg" alt="">
-						<span class="tagline">Le rendez-vous suisse de la finance</span>
+						<span class="tagline">L’essentiel de l’économie en Suisse</span>
 					</div>
 				</div>
 
