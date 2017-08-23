@@ -186,6 +186,12 @@ article.last {
 	.col-md-8 p:last-child {
 		margin-bottom: 0;
 	}
+	.h4 {
+		font-weight: bold;
+	}
+	p {
+		font-size: $fs5;
+	}
 }
 
 article {
