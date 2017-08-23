@@ -31,6 +31,7 @@
 											<a href="#" class="h4">Le taux technique est une bombe à retardement pour les caisses publiques</a>
 											<div class="mark mb1">
 												<span><i class="fa fa-clock-o"></i> <time>14 may 2017 07:00 PM</time></span>
+												<span class="ml1"><i class="fa fa-user-o"></i> by Allnews</span>
 											</div>
 											<div class="tags">
 												<a href="#">tagline1</a>
