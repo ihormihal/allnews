@@ -137,7 +137,7 @@
 							<div class="mt2"></div>
 
 							
-							<h5 class="">Associated Articles</h5>
+							<h5 class="">Assiciated Articles</h5>
 							<div class="text-subline mb1"></div>
 
 							<article class="article-small">

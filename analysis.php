@@ -88,28 +88,78 @@
 						</div>
 
 						<div class="col-md-4 aside">
+
+							<h5 class="">Biography</h5>
+							<div class="text-subline mb1"></div>
+
+							<div class="author mt1 mb1">
+								<div class="avatar">
+									<img src="http://placehold.it/60x60" alt="" class="full">
+								</div>
+								<div class="info">
+									<h5 class="primary">Gössion Frederic</h5>
+									<div class="h6">CEO INVESCO LTD</div>
+								</div>
+								<div class="social">
+									<ul class="social-buttons right">
+										<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="h5">
+								<p>Est une économiste française. En janvier 2016, elle rejoint le Groupe Edmond de Rothschild en tant que Group Chief Economist. Elle est aussi membre du Haut Conseil des finances publiques. De 2006 à 2015, elle dirige le département des Études économiques et de la Stratégie marchés d’HSBC France.</p>
+							</div>
+
+							<div class="divider-primary mb2"></div>
+
+							<h5 class="">Company Key Facts</h5>
+							<div class="text-subline mb1"></div>
+
+							<div>
+								<img height="60" src="content/ger-logo.png" alt="">
+							</div>
+
+							<div class="h5">
+								<p>Fondé en 2003, Galena Asset Management offre une gamme de fonds alternatifs "absolute return" sur lesmatières premières. Ces fonds sont centrés sur les marchés liquides et ne négocient pas les matières premières physiques mais accèdent aux marchés à travers les dérivés. Les équipes sont basées à Genève, Londres, Singapour et Johannesburg. Galena opère totalement indépendamment de sa maison-mère, Trafigura Beheer.</p>
+							</div>
+
+							<div class="divider-primary mb2"></div>
 							
 							<div class="image">
 								<img src="content/adv-aside.png" alt="" class="full">
 							</div>
 
-							<div class="mt2"></div>
+							<h5 class="">Assiciated Articles</h5>
+							<div class="text-subline mb1"></div>
 
-							<article class="article-big last">
-								<div class="image">
-									<img src="http://placehold.it/400x240" alt="">
-									<div class="tag up">Nonre selection</div>
-								</div>
-								<div class="h4 mt1 primary">Marty Flanagan, CEO D`INVESCO</div>
-								<div class="h3 mt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
-								<div class="mark">
-									<span><i class="fa fa-clock-o"></i> <time>14 may 2017 07:00 PM</time></span>
-								</div>
+							<article class="article-small">
+								<h5 class="primary mb">Marchés</h5>
+								<div>Swiss politician Gössi do eiusmod magna aliqua</div>
+							</article>
+							<article class="article-small">
+								<h5 class="primary mb">Corporate</h5>
+								<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
+							</article>
+							<article class="article-small">
+								<h5 class="primary mb">Règlementation</h5>
+								<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
+							</article>
+							<article class="article-small">
+								<h5 class="primary mb">Produits</h5>
+								<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
+							</article>
+							<article class="article-small last">
+								<h5 class="primary mb">Calendrier</h5>
+								<p>Swiss politician do eiusmod magna aliqua amet consectetur</p>
 							</article>
 
 							<div class="mt2"></div>
 
-							<h5 class="">Analyses</h5>
+							<h5 class="">Interviews</h5>
 							<div class="text-subline mb1"></div>
 
 							<article class="article-small last">
@@ -145,21 +195,6 @@
 							</div>
 							<div class="divider-orange"></div>
 
-							<div class="mt2"></div>
-
-							<h5 class="">Finance</h5>
-							<div class="text-subline mb1"></div>
-							
-							<ul class="collection links">
-								<li><a href="#">News</a></li>
-								<li><a href="#">Analyses</a></li>
-								<li><a href="#">Interviews</a></li>
-								<li><a href="#">Marchés</a></li>
-								<li><a href="#">Produits</a></li>
-								<li><a href="#">Règlementation</a></li>
-								<li><a href="#">Trajectoires</a></li>
-								<li><a href="#">Agenda</a></li>
-							</ul>
 
 						</div>
 
